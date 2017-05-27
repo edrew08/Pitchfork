@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="v3a-hC-Sb0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="GvV-C7-OOg">
+            <objects>
+                <navigationController storyboardIdentifier="topAlbumsNavigationController" id="v3a-hC-Sb0" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="qp6-5T-q1k" customClass="PitchforkNavigationBar" customModule="Pitchfork" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="aaJ-IY-63u" kind="relationship" relationship="rootViewController" id="92l-fF-XNj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PzM-BY-VuW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-470" y="158"/>
+        </scene>
+        <!--Top Albums View Controller-->
+        <scene sceneID="VWP-gg-m7F">
+            <objects>
+                <viewController id="aaJ-IY-63u" customClass="TopAlbumsViewController" customModule="Pitchfork" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fDv-9P-nfn"/>
+                        <viewControllerLayoutGuide type="bottom" id="EN3-Dh-Zxb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="z2f-rQ-VxW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" indicatorStyle="white" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="pTg-Gw-Nz3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewLayout key="collectionViewLayout" id="hXD-hD-Ih3" customClass="TopAlbumsLayout" customModule="Pitchfork" customModuleProvider="target"/>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pTg-Gw-Nz3" firstAttribute="leading" secondItem="z2f-rQ-VxW" secondAttribute="leading" id="CL2-ab-l5z"/>
+                            <constraint firstItem="pTg-Gw-Nz3" firstAttribute="top" secondItem="z2f-rQ-VxW" secondAttribute="top" id="VGU-6e-fev"/>
+                            <constraint firstItem="EN3-Dh-Zxb" firstAttribute="top" secondItem="pTg-Gw-Nz3" secondAttribute="bottom" id="jLx-jh-N5B"/>
+                            <constraint firstAttribute="trailing" secondItem="pTg-Gw-Nz3" secondAttribute="trailing" id="qyB-Yv-vjt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="S0o-Sz-16u"/>
+                    <connections>
+                        <outlet property="collectionView" destination="pTg-Gw-Nz3" id="ZoD-Nf-ugS"/>
+                        <segue destination="EJq-kK-n8Z" kind="presentation" identifier="reviewSegue" id="TBC-1J-rE5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pxm-gB-az0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="445.60000000000002" y="157.87106446776613"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ise-Lh-zvH">
+            <objects>
+                <navigationController id="EJq-kK-n8Z" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Tm7-KP-chs" customClass="PitchforkNavigationBar" customModule="Pitchfork" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ab8-rA-zFA" kind="relationship" relationship="rootViewController" id="UBx-aI-csS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SOm-iu-15v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1313" y="158"/>
+        </scene>
+        <!--Review View Controller-->
+        <scene sceneID="dMa-3o-KDr">
+            <objects>
+                <viewController id="ab8-rA-zFA" customClass="ReviewViewController" customModule="Pitchfork" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xto-c1-Ohw"/>
+                        <viewControllerLayoutGuide type="bottom" id="aDk-8E-yQU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qzn-aJ-LAm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HkQ-Fq-pZi">
+                        <barButtonItem key="rightBarButtonItem" image="close" id="Zf8-e6-YwV">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="closeAction:" destination="ab8-rA-zFA" id="iXw-kh-maN"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hOw-98-Wwt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2169" y="158"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="close" width="22" height="22"/>
+    </resources>
+</document>

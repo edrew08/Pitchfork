@@ -1,0 +1,303 @@
+{ "albums":[
+  {
+  "artist":"Solange",
+  "title":"A Seat at the Table",
+  "coverArt":"/2016/62660-a-seat-at-the-table.jpg",
+  "review":"/22482-a-seat-at-the-table"
+  },
+  {
+  "artist":"Frank Ocean",
+  "title":"Blonde",
+  "coverArt":"/2016/58949-blonde.jpg",
+  "review":"/22295-blonde-endless"
+  },
+  {
+  "artist":"Beyoncé",
+  "title":"Lemonade",
+  "coverArt":"/2016/54075-lemonade.jpg",
+  "review":"/21867-lemonade"
+  },
+  {
+  "artist":"David Bowie",
+  "title":"Blackstar",
+  "coverArt":"/2016/43569-blackstar.jpg",
+  "review":"/21332-blackstar"
+  },
+  {
+  "artist":"Kanye West",
+  "title":"The Life of Pablo",
+  "coverArt":"/2016/48146-the-life-of-pablo.jpg",
+  "review":"/21542-the-life-of-pablo"
+  },
+  {
+  "artist":"Chance the Rapper",
+  "title":"Coloring Book",
+  "coverArt":"/2016/54718-chance-3.jpg",
+  "review":"/21909-coloring-book"
+  },
+  {
+  "artist":"A Tribe Called Quest",
+  "title":"We got it from Here... Thank You 4 Your service",
+  "coverArt":"/2016/64923-we-got-it-from-here-thank-you-for-your-service.jpg",
+  "review":"/22607-we-got-it-from-here-thank-you-4-your-service"
+  },
+  {
+  "artist":"ANOHNI",
+  "title":"Hopelessness",
+  "coverArt":"/2016/51671-hopelessness.jpg",
+  "review":"/21819-hopelessness"
+  },
+  {
+  "artist":"Angel Olsen",
+  "title":"My Woman",
+  "coverArt":"/56124-my-woman.jpg",
+  "review":"/22282-my-woman"
+  },
+  {
+  "artist":"Radiohead",
+  "title":"A Moon Shaped Pool",
+  "coverArt":"/2016/54767-a-moon-shaped-pool.jpg",
+  "review":"/21907-a-moon-shaped-pool"
+  },
+  {
+  "artist":"Danny Brown",
+  "title":"Atrocity Exhibition",
+  "coverArt":"/2016/59995-atrocity-exhibition.jpg",
+  "review":"/22468-atrocity-exhibition"
+  },
+  {
+  "artist":"Bon Iver",
+  "title":"22, A Million",
+  "coverArt":"/2016/59737-22-a-million.jpg",
+  "review":"/22420-22-a-million"
+  },
+  {
+  "artist":"Anderson .Paak",
+  "title":"Malibu",
+  "coverArt":"/2016/47911-malibu.jpg",
+  "review":"/21387-malibu"
+  },
+  {
+  "artist":"Blood Orange",
+  "title":"Freetown Sound",
+  "coverArt":"/2016/56229-freetown-sound.jpg",
+  "review":"/22052-blood-orange-freetown-sound"
+  },
+  {
+  "artist":"Nick Cave & the Bad Seeds",
+  "title":"Skeleton Tree",
+  "coverArt":"/2016/55907-skeleton-tree.jpg",
+  "review":"/22336-skeleton-tree"
+  },
+  {
+  "artist":"Kendrick Lamar",
+  "title":"untitled unmastered.",
+  "coverArt":"/2016/51270-untitled-unmastered-1.jpg",
+  "review":"/21705-untitled-unmastered"
+  },
+  {
+  "artist":"Leonard Cohen",
+  "title":"You Want It Darker",
+  "coverArt":"/2016/62251-you-want-it-darker.jpg",
+  "review":"/22514-you-want-it-darker"
+  },
+  {
+  "artist":"Mitski",
+  "title":"Puberty 2",
+  "coverArt":"/2016/51364-puberty-2.jpg",
+  "review":"/21970-puberty-2"
+  },
+  {
+  "artist":"Rihanna",
+  "title":"ANTI",
+  "coverArt":"/2016/46140-anti-1.jpg",
+  "review":"/21540-anti"
+  },
+  {
+  "artist":"Nicolas Jaar",
+  "title":"Sirens",
+  "coverArt":"/2016/62368-sirens.jpg",
+  "review":"/22444-sirens"
+  },
+  {
+  "artist":"Young Thug",
+  "title":"JEFFERY",
+  "coverArt":"/2016/59833-jeffery.jpg",
+  "review":"/22329-jeffery"
+  },
+  {
+  "artist":"YG",
+  "title":"Still Brazy",
+  "coverArt":"/2016/55891-still-brazy.jpg",
+  "review":"/21988-yg-still-brazy"
+  },
+  {
+  "artist":"Jenny Hval",
+  "title":"Blood Bitch",
+  "coverArt":"/2016/55389-blood-bitch.jpg",
+  "review":"/22314-blood-bitch"
+  },
+  {
+  "artist":"Car Seat Headrest",
+  "title":"Teens of Denial",
+  "coverArt":"/2016/52315-teens-of-denial.jpg",
+  "review":"/21673-teens-of-denial"
+  },
+  {
+  "artist":"Kaytranada",
+  "title":"99.9%",
+  "coverArt":"/2016/54293-999.jpg",
+  "review":"/21899-999"
+  },
+  {
+  "artist":"Parquet Courts",
+  "title":"Human Performance",
+  "coverArt":"/2016/49597-human-performance.jpg",
+  "review":"/21597-human-performance"
+  },
+  {
+  "artist":"Noname",
+  "title":"Telefone",
+  "coverArt":"/2016/58918-telefone.jpg",
+  "review":"/22218-telefone"
+  },
+  {
+  "artist":"NxWorries",
+  "title":"Yes Lawd!",
+  "coverArt":"/2016/62191-yes-lawd.jpg",
+  "review":"/22389-yes-lawd"
+  },
+  {
+  "artist":"Kaitlyn Aurelia Smith",
+  "title":"EARS",
+  "coverArt":"/2016/50319-ears.jpg",
+  "review":"/21562-ears"
+  },
+  {
+  "artist":"Esperanza Spalding",
+  "title":"Emily’s D+Evolution",
+  "coverArt":"/2016/49461-emilys-devolution.jpg",
+  "review":"/21575-emilys-devolution"
+  },
+  {
+  "artist":"Whitney",
+  "title":"Light Upon the Lake",
+  "coverArt":"/2016/52287-light-upon-the-lake.jpg",
+  "review":"/21871-light-upon-the-lake"
+  },
+  {
+  "artist":"Elza Soares",
+  "title":"A Mulher do Fim do Mundo (The Woman at the End of the World)",
+  "coverArt":"/2015/42624-a-mulher-do-fim-do-mundo.jpg",
+  "review":"/22173-a-mulher-do-fim-do-mundo-the-woman-at-the-end-of-the-world"
+  },
+  {
+  "artist":"Maxwell",
+  "title":"blackSUMMERS’night",
+  "coverArt":"/2016/53440-blacksummersnight.jpg",
+  "review":"/22057-maxwell-blacksummersnight"
+  },
+  {
+  "artist":"Kevin Morby",
+  "title":"Singing Saw",
+  "coverArt":"/2016/48662-singing-saw.jpg",
+  "review":"/21681-singing-saw"
+  },
+  {
+  "artist":"Hamilton Leithauser / Rostam",
+  "title":"I Had a Dream That You Were Mine",
+  "coverArt":"/2016/59152-i-had-a-dream-that-you-were-mine.jpg",
+  "review":"/22313-i-had-a-dream-that-you-were-mine"
+  },
+  {
+  "artist":"Jamila Woods",
+  "title":"HEAVN",
+  "coverArt":"/2016/57968-heavn-1.jpg",
+  "review":"/22156-heavn"
+  },
+  {
+  "artist":"KING",
+  "title":"We Are KING",
+  "coverArt":"/2016/46535-we-are-king.jpg",
+  "review":"/21469-we-are-king"
+  },
+  {
+  "artist":"Schoolboy Q",
+  "title":"Blank Face LP",
+  "coverArt":"/2016/56610-blank-face-2.jpg",
+  "review":"/22094-blank-face-lp"
+  },
+  {
+  "artist":"Moodymann",
+  "title":"DJ-Kicks",
+  "coverArt":"/2016/49049-dj-kicks.jpg",
+  "review":"/21580-dj-kicks"
+  },
+  {
+  "artist":"Vijay IyerWadada / Leo Smith",
+  "title":"A Cosmic Rhythm With Each Stroke",
+  "coverArt":"/2016/51102-a-cosmic-rhythm-with-each-stroke.jpg",
+  "review":"/21518-a-cosmic-rhythm-with-each-stroke"
+  },
+  {
+  "artist":"Huerco S.",
+  "title":"For Those Of You Who Have Never (And Also Those Who Have)",
+  "coverArt":"/2016/55848-for-those-of-you-who-have-never-and-also-those-who-have.jpg",
+  "review":"/21885-for-those-of-you-who-have-never-and-also-those-who-have"
+  },
+  {
+  "artist":"Vince Staples",
+  "title":"Prima Donna",
+  "coverArt":"/2016/59917-prima-donna.jpg",
+  "review":"/22296-vince-staples-prima-donna"
+  },
+  {
+  "artist":"Weyes Blood",
+  "title":"Front Row Seat to Earth",
+  "coverArt":"/2016/59872-front-row-seat-to-earth.jpg",
+  "review":"/22463-front-row-seat-to-earth"
+  },
+  {
+  "artist":"Kevin Gates",
+  "title":"Islah",
+  "coverArt":"/2016/41264-islah.jpg",
+  "review":"/21287-islah"
+  },
+  {
+  "artist":"William Tyler",
+  "title":"Modern Country",
+  "coverArt":"/2016/53705-modern-country.jpg",
+  "review":"/21916-modern-country"
+  },
+  {
+  "artist":"Pinegrove",
+  "title":"Cardinal",
+  "coverArt":"/2016/48083-cardinal.jpg",
+  "review":"/21507-cardinal"
+  },
+  {
+  "artist":"Kamaiyah",
+  "title":"A Good Night in the Ghetto",
+  "coverArt":"/2016/51872-a-good-night-in-the-ghetto.jpg",
+  "review":"/21712-a-good-night-in-the-ghetto"
+  },
+  {
+  "artist":"Frankie Cosmos",
+  "title":"Next Thing",
+  "coverArt":"/2016/49011-next-thing.jpg",
+  "review":"/21765-next-thing"
+  },
+  {
+  "artist":"Porches",
+  "title":"Pool",
+  "coverArt":"/2016/45906-pool.jpg",
+  "review":"/21514-pool"
+  },
+  {
+  "artist":"21 Savage / Metro Boomin",
+  "title":"Savage Mode",
+  "coverArt":"/57922-savage-mode.jpg",
+  "review":"/22161-savage-mode"
+  }
+  ]
+}
