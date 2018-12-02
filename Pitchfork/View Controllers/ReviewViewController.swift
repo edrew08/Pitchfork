@@ -15,7 +15,7 @@ class ReviewViewController: UIViewController {
 
     lazy var activityIndicator: UIActivityIndicatorView = {
         let activityIndicator = UIActivityIndicatorView()
-        activityIndicator.activityIndicatorViewStyle = .whiteLarge
+        activityIndicator.style = .whiteLarge
         activityIndicator.color = UIColor.lightGray
         activityIndicator.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(activityIndicator)

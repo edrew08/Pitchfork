@@ -26,7 +26,7 @@ class TopAlbumsLayout: UICollectionViewLayout {
 
         let contentSize = self.contentSize
         let rect = CGRect(x: 0, y: 0, width: contentSize.width, height: contentSize.height)
-        let layoutAttributes: [UICollectionViewLayoutAttributes] = indexPathsOfItems(in: rect).flatMap { indexPath in
+        let layoutAttributes: [UICollectionViewLayoutAttributes] = indexPathsOfItems(in: rect).compactMap { indexPath in
             let layoutAttribute = UICollectionViewLayoutAttributes(forCellWith: indexPath)
             layoutAttribute.frame = frame(at: indexPath)
             return layoutAttribute

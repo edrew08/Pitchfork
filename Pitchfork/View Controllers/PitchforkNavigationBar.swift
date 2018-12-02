@@ -10,7 +10,7 @@ class titleView: UIView {
     let imageView: UIImageView = {
         let image = UIImage(assetIdentifier: .pitchforkTitle)
         var imageView = UIImageView(image: image)
-        imageView.contentMode = UIViewContentMode.scaleAspectFit
+        imageView.contentMode = UIView.ContentMode.scaleAspectFit
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
